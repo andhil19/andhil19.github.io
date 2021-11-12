@@ -1,0 +1,26 @@
+
+}
+h1 {
+	background-color: lightskyblue;
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+p {
+	max-width: 600px;
+	margin: auto;
+}
+:root {
+	scroll-behavior: smooth;
+}
+img {
+	width: 500px;
+	height: 300px;
+	margin: 100px;
+	float: left;
+	border: 15px double white;
+}
+body {
+	background-color: black;
+	color: white;
+}

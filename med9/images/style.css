@@ -1,0 +1,21 @@
+img {
+	width: 400px;
+	margin: 25px;
+	border: 8px dashed darkred;
+	border-radius: 40px;
+	height: 200px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+body {
+	background-color: yellow;
+
+}
+p {
+	font-size: 20px;
+	
+}
