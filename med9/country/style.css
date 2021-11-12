@@ -1,0 +1,35 @@
+.red {
+	background-color: red;
+}
+.white {
+	background-color: white;
+}
+div {
+	width:500px ;
+	height: 100px;
+
+}
+p {
+	font-size: 20px;
+	color: white;
+}
+img {
+	width: 250px;
+	height: 200px;
+	border: 10px double black;
+	float: right;
+	border-color: red;
+}
+a {
+	color: red;
+}
+body {
+	background-color: black ;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: red;
+
+}
