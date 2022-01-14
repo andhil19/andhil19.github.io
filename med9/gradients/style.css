@@ -1,0 +1,23 @@
+body {
+	background: rgb(0,44,255);
+background: linear-gradient(90deg, rgba(0,44,255,1) 50%, rgba(255,235,0,1) 51%);
+
+font-size: 100px;
+font-display: center;
+color: white;
+min-height: 100vh;
+}
+h1 {
+
+	background: rgb(255,0,0);
+background: linear-gradient(240deg, rgba(255,0,0,1) 27%, rgba(18,0,221,1) 28%, rgba(0,222,18,1) 41%, rgba(0,1,1,1) 41%, rgba(255,255,255,1) 53%, rgba(255,235,0,1) 53%, rgba(0,26,255,1) 73%, rgba(255,0,0,1) 74%);
+}
+div {
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 62%, rgba(255,235,0,1) 64%, rgba(0,0,0,1) 67%);
+}
+h2 {
+	bbackground: rgb(245,255,0);
+background: linear-gradient(180deg, rgba(245,255,0,1) 0%, rgba(255,255,255,1) 31%, rgba(0,255,244,1) 47%, rgba(255,255,255,1) 64%, rgba(56,61,255,1) 100%, rgba(0,5,255,1) 100%);
+color: black;
+}
