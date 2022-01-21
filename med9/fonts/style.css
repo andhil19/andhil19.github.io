@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=EB+Garamond:ital@1&family=Indie+Flower&display=swap');
+body {
+	color: black ;
+	background: rgb(0,0,0);
+background: linear-gradient( 
+85deg,
+lightcoral 0%,
+lightblue 100%);
+}
+h1 {
+font-family:EB Garamond;
+text-align: center;
+margin: 20px;
+padding: 30px;
+font-size: 50px;
+transform: rotate(180deg);
+}
+
+
+h2 {
+font-family: Indie Flower;
+text-align: center;
+font-size: 50px;
+padding: 20px;
+margin: 20px;
+}
+p {
+font-family:Dongle;
+text-align: justify;
+font-size: 25px;
+column-count: 3;
+}
+
+
+
+
+
