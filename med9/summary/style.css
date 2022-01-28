@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@700&display=swap');
+a {
+	background-color: indianred;
+	font-size: 30px;
+	display: inline;
+	color: black;
+	text-align: center;
+}
+body {
+	background-color: black;
+	color: white;
+}
+img {
+
+	width: 400px;
+	margin: 25px;
+	border: 8px dashed darkred;
+	border-radius: 40px;
+	height: 200px;
+}
+.left {
+	float: left;
+	border: 10px double white;
+}
+.right {
+	float: right;
+}
+h1 {
+	font-size: 100px;
+}
+h2 {
+	font-family: Comforter;
+	color: yellow;
+	font-size: 35px;
+}
+.besprem {
+	color: red;
+	font-size: 40px;
+	font-family: Dongle;
+}
+.f {
+width: 800px;
+	margin: 25px;
+	border: 8px dashed darkred;
+	border-radius: 40px;
+	height: 400px;
+	float: left;	
+}
+.help {
+	background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 13%, rgba(0,0,0,1) 27%, rgba(255,255,255,1) 29%, rgba(255,0,0,1) 44%, rgba(255,255,255,1) 47%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 58%, rgba(154,151,47,1) 63%, rgba(172,172,7,1) 82%, rgba(0,0,0,1) 89%, rgba(255,255,255,1) 100%);
+}
