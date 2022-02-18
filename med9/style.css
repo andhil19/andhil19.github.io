@@ -1,0 +1,57 @@
+body{
+	background: yellow;
+}
+.a{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.b{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.c{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.d{background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background-color: yellow;
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+
+}
+.e{
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+}
+.f{background: rgb(226,0,0);
+background: radial-gradient(circle, rgba(226,0,0,1) 0%, rgba(0,236,255,1) 0%);
+display: flex;
+justify-content: flex-end;
+align-items: stretch;
+
+}
+div{
+	height: 500px;
+	padding: 30px;
+	margin: 40px;
+}
+img {
+	height: 300px;
+}
+p {
+	font-size: 25px;
+}
