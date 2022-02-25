@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@700&family=Shizuru&display=swap');
+body{
+	background:red;
+}
+.A{
+	
+font-family:Shizuru;
+font-size: 30px;
+display: flex;
+align-items:flex-end;
+justify-content:center;
+background:white;
+
+}
+
+.B{
+
+
+	display: flex;
+background:black;
+align-items:center;
+justify-content:flex-start;
+	
+}
+
+
+.C{
+
+background:white;
+	display: flex;
+align-items:center;
+justify-content:space-between;
+
+}
+
+.D{
+
+	background:black;
+	display: flex;
+align-items:flex-start;
+justify-content:flex-end;
+
+}
+
+.E{
+
+	background:white;
+	display: flex;
+align-items:flex-end;
+justify-content:space-evenly;
+
+}
+
+.F{
+		background:black;
+
+	display: flex;
+align-items:stretch;
+justify-content:space-around
+
+}
+
+.G{
+
+	
+	background:white;
+
+display: flex;
+align-items: flex-end;
+justify-content:
+}
+img {
+height: 400px;
+width: 300px;
+}
+div{
+	height:600px;
+}
