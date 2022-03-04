@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&display=swap');
+header h1 {
+ text-align: center;
+ font-family: dancing script;
+}
+header h2 {
+ text-align: center;
+ font-family: dancing script;
+}
+div {
+	border: dotted 4px black;
+	margin: 15px;
+	height: 170px;
+}
+.a {
+ column-count: 3;
+ font-family: raleway;
+ padding: 35px;
+ padding-left: 13px;
+ padding-right: 13px;
+ height: 100px;
+ }
+ .a p {
+ 	text-align: justify;
+ }
+
+#b {
+	background: rgb(114,176,177);
+background: radial-gradient(circle, rgba(114,176,177,1) 0%, rgba(69,98,176,1) 52%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#b p {
+ background-color: white;
+ padding: 12px;
+ font-family: raleway;
+
+}
+.c {
+	background-color: lightblue;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 170px;
+
+}
+.c p {
+	margin: 0px;
+	background-color: white;
+	padding: 10px;
+	width: 50px;
+	font-size: 13px;
+}
+#d {
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 160px;
+}
+img {
+	height: 50px;
+	width: 70px;
+    border: solid 1px white;
+	background-color: white;
+}
+footer {
+	background-color: darkblue;
+	border: dotted 4px black;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	margin: 20px;
+	height: 170px;
+}
+footer p {
+	background-color: white;
+	margin: 0px;
+	padding: 17px;
+}
