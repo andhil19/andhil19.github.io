@@ -29,7 +29,7 @@ article .text  {
 background: linear-gradient(197deg, rgba(2,11,66,1) 21%, rgba(0,232,255,1) 100%);
 }
 article {
-	
+	position: relative;
 	display: flex;
 	justify-content: center;
  align-items: center;
@@ -39,8 +39,8 @@ article .text h1 {
 	color: white;
 	padding: 12px;
 	position: absolute;
-	left:800px ;
-	top: 381px;
+	left:330px ;
+	top: 72px;
     z-index: 100;
 }
 article .text h2 {
@@ -50,8 +50,8 @@ article .text h2 {
 	color: darkblue;
 	font-size: 40px;
     position: absolute;
-	left:900px ;
-	top: 400px;
+	left:400px ;
+	top: 95px;
 
 }
 
