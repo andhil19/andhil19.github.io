@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Koulen&family=Macondo&family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
 /*
 *
 *Title: Infoseite über Pandas;
@@ -12,7 +11,7 @@
     body{
      margin: 0px;
      background-color: white;
-     font-family: Roboto;
+     background-color: lightgray;
 
      
   }
@@ -23,7 +22,10 @@ nav {
     justify-content: space-between;/* to make space between logo and links*/
      height: 300px;
     padding: 21px;
-
+    background-color: black;
+    width: 1270px;
+    margin: 20px;
+    
 }
 
 nav ul {
@@ -36,13 +38,14 @@ nav ul {
 nav ul li a {
 	margin: 16px;
 	padding: 19px;
-	background-color: whitesmoke;
+	background-color: white;
 	text-decoration: none;
 	color: black;
 	border-radius: 21px;
-    font-family: BhuTuka Expanded One;
+    font-family: Anton;
     font-size: 40px;
 }
+
 img{
 	border-radius: 51%;
 }
@@ -58,7 +61,7 @@ header {
 	
 	background-size: cover;
 	background-position: center;
-	height:600px ;
+	height:380px ;
 }
 header  h1 {
 	font-size:30px ;
@@ -92,20 +95,27 @@ section #right {
 	align-items: stretch;
 }
 /* Footer*/
-footer {
+ footer {
 	height: 400px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	background: rgb(0,0,0);
-background: linear-gradient(270deg, rgba(0,0,0,1) 48%, rgba(255,255,255,1) 56%);
+	background-image: url(c.jpg);
+	background-size: cover;
+	background-position: center;
 margin: 20px;
 }
-footer p {
+ footer p {
 	background-color: rgba(0, 0, 0, 0.01);
 	padding: 20px;
-	color: red;
+	color: black;
 	font-size: 38px;
+	padding-top: 270px;
+    font-family: Macondo;
+}
+header p{
+	font-size: 150px;
+	font-family: Pacifico;
 }
 
 
@@ -114,23 +124,27 @@ footer p {
 /*Home*/
 #home header {
 	background-image: url(b.jpg);
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(119,89,29,1) 60%);
+color: white;
+
 }
-#home main {
-	background-color: lightgray;
-	padding: 20px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	flex-wrap: wrap;
+#home div {
+	color: black;
+	font-size: 30px;
+	font-family: Roboto;
+	margin: 50px;
+	border: double 5px white;
+	
 }
-#home main img {
-	width: 249px;
-	border: 5px double black;
+#home div h1{
+	margin: 20px;
 }
+
 /*contact*/
 
 
-#product article .image {
+#product main .image {
 	height: 200px;
 	width: 300px;
 	background-image: url(b.png);
@@ -138,7 +152,7 @@ footer p {
 	background-position: center;
 	padding: 29px;
 }
-#product article .text {
+#product main .text {
 	height: 200px;
 	width: 300px;
 	background-color: white;
@@ -148,8 +162,13 @@ footer p {
 	justify-content: space-between;
 	align-items: flex-start;
 	flex-direction: column;
+	padding-top: 10px;
+	font-size: 21px;
 }
-#product article .text .mini-footer {
+#product main .text h1 {
+	margin-top: 2px;
+}
+#product main .text .mini-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -167,12 +186,45 @@ footer p {
 	gap: 30px;
 	flex-wrap: wrap;
 	margin: 90px;
-	margin-top: 250px;
+	margin-top: 20px;
+}
+#product a {
+	margin: 16px;
+	padding: 19px;
+	background-color: whitesmoke;
+	text-decoration: none;
+	color: black;
+	border-radius: 21px;
+    font-family: BhuTuka Expanded One;
+    font-size: 40px;
 }
 
-
-
-
+#product a:hover {
+	background-color: black;
+	color: white;
+}
+#product footer {
+	width: 1270px;
+	margin: 20px;
+}
+#product nav {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(255,255,255,1) 59%);
+}
+#product nav ul li a {
+	background-color: black;
+	color: white;
+}
+#product nav ul li a:hover {
+	background-color: white;
+	color: black;
+}
+#product span {
+	font-family: Koulen;
+}
+#product h1 {
+	font-family: Roboto;
+}
 
 
 
@@ -196,4 +248,52 @@ footer p {
 #about {
 	background-color: lightgray;
 	margin: 20px;
+}
+#about nav {
+	background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(0,0,0,1) 55%);
+}
+#about header {
+	background-color: black;
+	width: 1270px;
+
+}
+#about header p{
+	font-size: 150px;
+	font-family: Pacifico;
+	color: white;
+}
+#about main .image {
+	height: 400px;
+	width: 300px;
+	background-image: url(b.png);
+	background-size: cover;
+	background-position: center;
+	padding: 29px;
+}
+#about main .text {
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	padding: 29px;
+	font-family: Koulen;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-top: 10px;
+	font-size: 21px;
+}
+#about {
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-evenly;
+	 align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin: 90px;
+	margin-top: 20px;
+}
+#about footer {
+	width: 1270px;
 }
