@@ -1,0 +1,17 @@
+.pizza1{
+	height: 450px;
+	width: 600px;
+	border: double black 15px;
+	margin: 25px;
+	
+}
+
+#pizza2{
+	height: 450px;
+	width: 600px;
+	border: dashed darkred 12px;
+	margin: 25px;
+}
+body{
+	background-color: lightgray;
+}

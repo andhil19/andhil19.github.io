@@ -1,0 +1,36 @@
+body{
+	background-color: darkgray;
+	margin: 0px;
+}
+nav{
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px 20px 0px;
+	height: 120px;
+	align-items: center;
+
+}
+nav img{
+	height: 160px;
+}
+nav ul{
+    padding: 20px;
+     display: flex;
+
+}
+
+nav ul li a{
+	background-color: red;
+	border-radius: 90%;
+	color: white;
+	font-family: calibri sans-serif;
+	text-transform: uppercase;
+	padding: 25px;
+	text-decoration: none;
+	margin: 20px;
+
+}
+nav ul li a:hover{
+	background-color: lightcoral;
+}
