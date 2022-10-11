@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Progressing</title>
+	<style type="text/css">
+		body{
+			background-color: green;
+			margin: 20px;
+
+		}
+.text{
+			color: red;
+			display: flex;
+			align-items:center ;
+			justify-content: center;
+		}
+
+.bar{
+			width: 250px;
+			height: 10px;
+			border: 10px red solid;
+			border-radius: 15px;
+			margin-left: 200px;
+		}
+		.Progress{
+
+	animation:progress 4s linear forwards;
+	background-color: white;
+	height: 10px;
+	border-radius: 15px;
+}
+		@keyframes progress{
+			0%{width: 0%;}
+			50%{width: 50%;}
+			75%{width: 75%;}
+			85%{width: 85%;}
+			100%{width: 100%;}
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="text">Progressing...</div>
+	<div class="bar">
+		<div class="Progress"></div>
+</div>
+	
+
+
+</body>
+</html>
