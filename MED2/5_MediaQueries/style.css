@@ -11,6 +11,9 @@
 Kurzere Zeilen! */
 
 /* Handy design */
+header,nav,article,aside{
+	width: 100%;
+}
 		header{
 	background-color: grey;
 	padding: 25px;
@@ -30,9 +33,27 @@ aside{
 	background-color: lightblue;
 	padding: 25px;
 	}
+/*tablet design*/
+@media(min-width:  600px){
+  li{
+  	display: inline;
+  }
+  aside{
+	width: 40%;
+	float: left;
+    }
+    article{
+	width: 60%;
+	float: left;
+    }
 
+
+}
 /* desktop design */
 @media(min-width: 768px){
+    li{
+    	display: list-item;
+    }
     nav, aside{
 	width: 25%;
     float: left;
