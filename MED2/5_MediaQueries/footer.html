@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Footer</title>
+    <style type="text/css">
+  *{
+  	word-wrap: break-word;
+  	box-sizing: border-box;
+	padding: 0;
+	
+  }
+ 
+  footer{
+ 	display: flex;
+ 	flex-direction:column ;
+ 	background-color: black;
+    color: white;
+
+ }
+     .about{
+     	margin-top: 30px;
+     	padding: 20px;
+     	width: 100%;
+     }
+     .services{
+     	padding: 20px;
+     	width: 100%;
+     }
+     .company{
+     	padding: 20px;
+     	width: 100%;
+     	
+     }
+     a{
+     	color: white;
+     }
+     h2,p{
+     	text-align: center;
+     }
+     a:hover{
+     	background-color: white;
+     	color: black;
+     }
+ @media(min-width: 768px){
+        body{
+        	margin: 0px;
+        }
+    	footer{
+    		color: white;
+    		background-color: black;
+    		display: flex;
+    		flex-direction: row ;
+    	}
+     .about{
+     	margin: 0px;
+     	padding: 20px;
+     	width: 25%;
+     }
+     .services{
+     	padding: 20px;
+     	width: 25%;
+     }
+     .company{
+     	padding: 20px;
+     	width: 50%;
+     }
+     a{
+     	color: white;
+     }
+     p{
+     	margin-top: 20px;
+     }
+
+h2,p{
+	text-align: left;
+}
+}
+    </style>
+
+
+</head>
+<body>
+	<footer>
+  <div class="about">
+  	<h2>About</h2>
+  	<p><a href="">Link 1</a></p>
+    <p><a href="">Link 2</a></p>
+    <p><a href="">Link 3</a></p>
+</div>
+   <div class="services">
+    <h2>Services</h2>
+  	<p><a href="">Link 1</a></p>
+    <p><a href="">Link 2</a></p>
+    <p><a href="">Link 3</a></p>
+    </div>
+    	<div class="company">
+    		<h2>Our Company</h2>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus sodales efficitur. Nulla facilisi. Morbi fermentum ex non rutrum suscipit. Donec eu faucibus massa. Nam bibendum consequat congue. Donec pellentesque, lectus sed cursus porta, sem leo bibendum augue, ut rhoncus velit urna eu justo. Nulla sed ex euismod, tempor sem nec, semper turpis. Sed rhoncus molestie ipsum, sed elementum ligula cursus sed. Phasellus malesuada congue varius. Donec sed aliquam ligula. Curabitur a suscipit sem, vitae rutrum ante.</p>
+  </div>
+
+
+
+
+</footer>
+</body>
+</html>
