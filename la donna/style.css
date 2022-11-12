@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Koulen&family=Roboto:wght@100&display=swap');
+#hom{
+	animation-duration:8s;
+	animation-delay: 2.0s;
+	animation-name: flash;
+	opacity: 1;
+}
+@keyframes flash{
+		0%{background-color:gold;}
+		1%{background-color:black;}
+		2%{background-color:gold;}
+		3%{background-color:black;}
+		4%{background-color:gold;}
+		5%{background-color:black;}
+		6%{background-color:gold;}
+		7%{background-color:black;}
+		8%{background-color:gold;}
+		9%{background-color:black;}
+		10%{background-color:gold;}
+		11%{background-color:black;}
+		12%{background-color:gold;}
+		13%{background-color:black;}
+		14%{background-color:gold;}
+		15%{background-color:black;}
+		20%{background-color:gold;}
+		25%{background-color:black;}
+		30%{background-color:gold;}
+		35%{background-color:black;}
+	   55%{background-color: black; }
+		60%{background-color:gold;}
+		65%{background-color:black;}
+		70%{background-color: gold;}
+		71%{background-color:black;}
+		72%{background-color:gold;}
+		73%{background-color:black;}
+		74%{background-color:gold;}
+		75%{background-color:black;}
+		76%{background-color:gold;}
+		77%{background-color:black;}
+		78%{background-color:gold;}
+		79%{background-color:black;}
+		80%{background-color:black;}
+		82%{background-color:gold;}
+		84%{background-color:black;}
+		86%{background-color:gold;}
+		88%{background-color:black;}
+		90%{background-color:gold;}
+		92%{background-color:black;}
+		94%{background-color:gold;}
+		96%{background-color:black;}
+		98%{background-color:gold;}
+		100%{background-color:black;}
+	}
+
+@keyframes opacity{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+#hom .body h1{
+	animation-fill-mode: forwards;
+	animation-name: opacity;
+	animation-delay: 6s;
+	animation-duration: 4s;
+	opacity: 0;
+	font-size: 200px;
+	margin: 100px;
+	margin-left: 200px;
+
+}
+#hom .body main{
+animation-fill-mode: forwards;
+	animation-name: opacity;
+	animation-delay: 10s;
+	animation-duration: 0.1s;
+	opacity: 0;
+}
+ #hom .body main .image {
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	padding: 29px;
+}
+#hom .body main .text {
+	height: 100px;
+	width: 300px;
+	background-color: white;
+	padding: 27px;
+	font-family: Roboto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-top: 10px;
+	font-size: 21px;
+	border: solid 2px black;
+}
+#hom .body main .text h2 {
+	margin-top: 2px;
+	font-size: 40px;
+}
+
+#hom .body {
+	display: flex;
+	justify-content: space-evenly;
+	 align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin: 90px;
+	margin-top: 20px;
+}
+#hom .body a {
+	margin: 16px;
+	padding: 19px;
+	text-decoration: none;
+	color: black;
+	border-radius: 21px;
+    font-family: BhuTuka Expanded One;
+    font-size: 40px;
+}
+#hom .body nav {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(255,255,255,1) 59%);
+}
+
+#hom .body h2 {
+	font-family: Roboto;
+}
+#hom .body .text h2 a{
+	font-size: 35px;
+}
+
+#home .text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#home .body h1{
+	font-size: 200px;
+	margin: 100px;
+	margin-left: 200px;
+
+}
+ #home .body main .image {
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	padding: 29px;
+}
+#home .body main .text {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 27px;
+	font-family: Roboto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-top: 10px;
+	font-size: 21px;
+	border: solid 2px black;
+}
+#home .body main .text h2 {
+	margin-top: 2px;
+	font-size: 25px;
+}
+
+#home .body {
+	display: flex;
+	justify-content: space-evenly;
+	 align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin: 90px;
+	margin-top: 20px;
+}
+#home .body a {
+	margin: 16px;
+	padding: 19px;
+	background-color: whitesmoke;
+	text-decoration: none;
+	color: black;
+	border-radius: 21px;
+    font-family: BhuTuka Expanded One;
+    font-size: 40px;
+}
+
+#home .body a:hover {
+	background-color: black;
+	color: white;
+}
+#home .body footer {
+	width: 1270px;
+	margin: 20px;
+}
+#home.body nav {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(255,255,255,1) 59%);
+}
+#home .body nav ul li a {
+	background-color: black;
+	color: white;
+}
+#home .body nav ul li a:hover {
+	background-color: white;
+	color: black;
+}
+#home .body span {
+	font-family: Koulen;
+}
+#home .body h2 {
+	font-family: Roboto;
+}
+
+#home .body main:hover{
+	transform: scale(1.2);
+}
+
+#home .link a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+	border-radius: 15px;
+	width: 150px;
+	text-decoration: none;
+	color: white;
+	height: 70px;
+	text-align: center;
+}
+#home  .link{ 
+ display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#home .link a:hover{
+	transform: scale(1.2);
+}
+#home .link a{
+	font-size: 20px;
+}
+
+#product .body h1{
+	font-size: 200px;
+	margin: 100px;
+	margin-left: 200px;
+}
+
+ #product .body main .image {
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	padding: 29px;
+}
+#product .body main .text {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 27px;
+	font-family: Roboto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-top: 10px;
+	font-size: 21px;
+	border: solid 2px black;
+}
+#product .body main .text h2 {
+	margin-top: 2px;
+	font-size: 25px;
+}
+
+#product .body {
+	display: flex;
+	justify-content: space-evenly;
+	 align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin: 90px;
+	margin-top: 20px;
+}
+#product .body a {
+	margin: 16px;
+	padding: 19px;
+	background-color: whitesmoke;
+	text-decoration: none;
+	color: black;
+	border-radius: 21px;
+    font-family: BhuTuka Expanded One;
+    font-size: 40px;
+}
+
+#product .body a:hover {
+	background-color: black;
+	color: white;
+}
+#product .body footer {
+	width: 1270px;
+	margin: 20px;
+}
+#product .body nav {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(255,255,255,1) 59%);
+}
+#product .body span {
+	font-family: Koulen;
+}
+#product .body h2 {
+	font-family: Roboto;
+}
+
+#product .body main:hover{
+	transform: scale(1.2);
+}
+
+#product .link a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+	border-radius: 15px;
+	width: 150px;
+	text-decoration: none;
+	color: white;
+	height: 70px;
+	text-align: center;
+}
+#product  .link{ 
+ display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#product .link a:hover{
+	transform: scale(1.2);
+}
+#product .link a{
+	font-size: 20px;
+}
